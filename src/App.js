@@ -5,11 +5,10 @@ import styled from 'styled-components';
 import { Button } from 'react-bootstrap';
 
 import Home from './components/Home';
+import Products from './components/Products';
 
 export default class extends Component {
   render() {
-    const Products = () => <div>Products</div>;
-
     const Page = styled.div`
       background-color: whitesmoke;
       color: #2f2f2f;
